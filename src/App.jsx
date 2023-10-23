@@ -33,7 +33,7 @@ const App = () => {
         <div className="w-full flex items-center justify-center text-lg font-semibold  text-white gap-10">
           {Navigation.map((ele, index) => (
             <NavBar
-              use={iArrary}
+              use={ItemClick}
               ele={ele}
               index={index}
               key={index}
